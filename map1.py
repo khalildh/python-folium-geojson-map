@@ -46,4 +46,4 @@ fgp.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='utf-8-sig').
 map1.add_child(fgv)
 map1.add_child(fgp)
 map1.add_child(folium.LayerControl())
-map1.save("Map1.html")
+map1.save("index.html")
